@@ -13,7 +13,7 @@ The code of this repo provides two basic modules to reproduce the error:
 
 ## Prerequisites
 
-- Terraform >= 1.2
+- Terraform >= 1.2 (tested on 1.2.9 and 1.5.5)
 - Run TF with an account or an SPN that have enough permissions to manage `azuread_group` and `azuread_group_member` resources. Find the required permissions in the [provider doc](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/resources/group)
 - the `group_name` input variables of the two module must match. Check `group/variables.tf` and `group_member/variables.tf` for defaults.
 
