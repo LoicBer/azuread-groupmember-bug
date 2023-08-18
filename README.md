@@ -1,8 +1,8 @@
-# AzureAD TF provider bug reproducer for \<BUG ID\> 
+# AzureAD TF provider bug reproducer for [issue 1172 ](https://github.com/hashicorp/terraform-provider-azuread/issues/1172) 
 
 ## Overview
 
-This repo aims at providing a simple reproducer for \<LINK TO GITHUB ISSUE\>.
+This repo aims at providing a simple reproducer for [issue 1172 ](https://github.com/hashicorp/terraform-provider-azuread/issues/1172).
 
 
 **Bug summary**: `azuread_group_member` resource  ([AzureAD provider](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/resources/group_member)) fails to refresh when its `group_object_id` attribute in the tfstate references an AD group that does not exist anymore.
