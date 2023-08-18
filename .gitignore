@@ -1,0 +1,13 @@
+*.zip
+.providers
+.terraform
+.terraform.d
+*.tfstate*
+*output.json
+*auto.tfvars
+/spn.sh
+*.log
+/.env
+*.tfvars
+# vscode config files might contain sensitive values such as token
+.vscode
